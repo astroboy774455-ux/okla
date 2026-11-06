@@ -1,0 +1,52 @@
+/* Desplazamiento suave para los enlaces del menú */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Ajuste del tamaño del carrusel */
+.img-carrusel {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Cajas contenedoras limpias con bordes y sombra suave */
+.caja-seccion {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Ajuste de imágenes de las tarjetas */
+.img-tarjeta {
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* Estilo para la galería Fancybox */
+.img-galeria {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.img-galeria:hover {
+    transform: scale(1.03);
+}
+
+/* Efecto hover en el footer para redes sociales */
+.redes-sociales a img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.redes-sociales a img:hover {
+    opacity: 0.7;
+    transform: scale(1.15);
+}
